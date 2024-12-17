@@ -27,7 +27,7 @@ class _StepperScreenState extends State<StepperScreen> with SingleTickerProvider
         title: Text("Your bag"), content: Container(color: Colors.blue,)),
     Step(
         state: StepState.complete,
-        title: Text("Your bag"), content: Container(color: Colors.yellow,)),
+        title: Text("Your Tag"), content: Container(color: Colors.yellow,)),
   ];
   @override
   Widget build(BuildContext context) {
